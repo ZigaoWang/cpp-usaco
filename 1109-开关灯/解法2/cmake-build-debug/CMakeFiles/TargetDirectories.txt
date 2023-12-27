@@ -1,0 +1,3 @@
+/Users/zigaowang/Documents/GitHub/Cpp/1109-开关灯/解法2/cmake-build-debug/CMakeFiles/2.dir
+/Users/zigaowang/Documents/GitHub/Cpp/1109-开关灯/解法2/cmake-build-debug/CMakeFiles/edit_cache.dir
+/Users/zigaowang/Documents/GitHub/Cpp/1109-开关灯/解法2/cmake-build-debug/CMakeFiles/rebuild_cache.dir
