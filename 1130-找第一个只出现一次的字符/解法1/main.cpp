@@ -1,3 +1,5 @@
+// 1130：找第一个只出现一次的字符
+// 解法 1
 #include <iostream>
 using namespace std;
 const int N = 100000;
