@@ -1,5 +1,5 @@
 // 1109：开关灯
-// 解法2
+// 解法 2
 #include <iostream>
 
 using namespace std;

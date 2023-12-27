@@ -1,3 +1,5 @@
+// 1109：开关灯
+// 解法 1
 #include <iostream>
 
 using namespace std;
