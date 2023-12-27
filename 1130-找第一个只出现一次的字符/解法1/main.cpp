@@ -3,7 +3,6 @@
 #include <iostream>
 
 using namespace std;
-const int N = 100000;
 int num[30];
 int main(){
     string s;
