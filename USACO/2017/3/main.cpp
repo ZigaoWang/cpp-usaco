@@ -34,8 +34,6 @@ int main() {
             current_time += cows[i].question_time;
         }
     }
-
     fout << current_time << endl;
-
     return 0;
 }
