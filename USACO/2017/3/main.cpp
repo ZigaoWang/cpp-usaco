@@ -17,7 +17,7 @@ int main() {
     ofstream fout("cowqueue.out");
     int N;
     fin >> N;
-    Cow cows[100];
+    Cow cows[110];
 
     for (int i = 0; i < N; i++) {
         fin >> cows[i].arrival_time >> cows[i].question_time;
