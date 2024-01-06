@@ -18,7 +18,7 @@ int main() {
         cin >> x;
         int l = 0;
         for (int j = 0; j < n && l < x; j++) {
-            int diff = max(0, (int)min(heights[j], (ll)x)-l);
+            int diff = max(0, (int)min(heights[j], (ll)x) - l);
             heights[j] += diff;
             l += diff;
         }
