@@ -21,7 +21,7 @@ int main() {
         }
     }
     for (int i = 0; i < n; i++) {
-        cout << heights[i] << '\n';
+        cout << heights[i] << endl;
     }
-    
+
 }
