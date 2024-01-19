@@ -10,7 +10,9 @@ int main() {
     int count[n];
     for (int i = 0; i < n; i++) {
         if (infect[i] == '1') {
-
+            count[i] = 0;
+        } else {
+            count[i] = 100000;
         }
     }
     cout << count << endl;
