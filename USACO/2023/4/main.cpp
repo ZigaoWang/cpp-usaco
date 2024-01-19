@@ -7,10 +7,10 @@ int main() {
     for (int i = 0; i < n; i++) {
         cin >> infect[i];
     }
-    int count[n];
+    int count = 0;
     for (int i = 0; i < n; i++) {
         if (infect[i] == '1') {
-            count++;
+
         }
     }
     cout << count << endl;
