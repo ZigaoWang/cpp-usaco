@@ -10,7 +10,7 @@ int main() {
         cin >> infect[i];
     }
 
-    int count[100];
+    int count[100000];
     int temp = 0;
     int countIndex = 0;
     for (int i = 0; i < n; i++) {
@@ -26,6 +26,9 @@ int main() {
     if (temp > 0) {
         count[countIndex++] = temp;
     }
+//    for (int i = 0; i < n; i++) {
+//        cout << count[i] << endl;
+//    }
     int cow = 0;
     for (int i = 0; i < countIndex; i++) {
         cow += count[i];
