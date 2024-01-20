@@ -1,4 +1,5 @@
 #include <iostream>
+#include <algorithm>
 using namespace std;
 
 int main() {
@@ -9,7 +10,7 @@ int main() {
         cin >> infect[i];
     }
 
-    int* count = new int[n];
+    int count[100];
     int temp = 0;
     int countIndex = 0;
     for (int i = 0; i < n; i++) {
@@ -25,10 +26,12 @@ int main() {
     if (temp > 0) {
         count[countIndex++] = temp;
     }
-
     for (int i = 0; i < countIndex; i++) {
-        cout << count[i] << " ";
+        count[i] = count[i] / 2;
     }
-    delete[] count;
+    int minCount = *min_element(count, count + countIndex);
+    cout << minCount << endl;
+    // add all the digit in count array and cout it
+
     return 0;
 }
