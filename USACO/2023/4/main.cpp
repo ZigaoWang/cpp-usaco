@@ -26,12 +26,14 @@ int main() {
     if (temp > 0) {
         count[countIndex++] = temp;
     }
+    int cow = 0;
+    for (int i = 0; i < countIndex; i++) {
+        cow += count[i];
+    }
     for (int i = 0; i < countIndex; i++) {
         count[i] = count[i] / 2;
     }
     int minCount = *min_element(count, count + countIndex);
-    cout << minCount << endl;
-    // add all the digit in count array and cout it
-
+    cout << (cow - minCount * 2) << endl;
     return 0;
 }
