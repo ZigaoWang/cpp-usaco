@@ -34,9 +34,17 @@ int main() {
         cow += count[i];
     }
     for (int i = 0; i < countIndex; i++) {
-        count[i] = count[i] / 2;
+        if (i != 0 || i != countIndex - 1) {
+            count[i] = count[i] / 2;
+        }
+        else if (count[i] == countIndex - 1) {
+            count[i] = count[i] / 2;
+        }
+        else {
+            count[i] = count[i] - 1;
+        }
     }
     int minCount = *min_element(count, count + countIndex);
-    cout << (cow - minCount * 2) << endl;
+    cout << (minCount + (cow - minCount * 2)) << endl;
     return 0;
 }
